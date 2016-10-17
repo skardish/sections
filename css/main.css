@@ -10,25 +10,34 @@ html {
 }
 
 img {
-width: 100%;
-max-width: 25em;
+  width: 100%;
+  max-width: 25em;
+  display: block;
+  vertical-align: middle;
 }
 
 body {
   display: inline-block;
   margin: 0;
+  text-align: left;
+  margin: 1.5rem;
+  padding: 0.4em 0.75em 0.5em;
 }
 
-div a {
+.btn {
   display: inline-block;
   color: #222;
   text-decoration: none;
+  text-align: center;
+  border: 3px solid #595652;
+  border-radius: 4px;
+
 }
 
 div a:hover {
   background-color: #666;
 }
 
-.btn {
+div a {
   color: #333;
 }
